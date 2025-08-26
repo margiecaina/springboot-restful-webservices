@@ -39,34 +39,35 @@ CREATE TABLE users (
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL
 );
-
 ```
 
 2. Update application.properties:
 
+```
 spring.datasource.url=jdbc:mariadb://localhost:3306/USER_MANAGEMENT
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-
+```
 
 ## Running the Application
 
 1. Clone the repository:
 
+```
 git clone https://github.com/margiecaina/springboot-restful-webservices.git
 cd springboot-restful-webservices
-
+```
 
 2. Build and run:
-
+```
 ./mvnw spring-boot:run
-
+```
 3. The app runs at:
-
+```
 http://localhost:8080
-
+```
 
 ## API Endpoints
 
@@ -80,13 +81,13 @@ http://localhost:8080
 
 
 ## Sample POST request body:
-
+```
 {
   "email": "john@example.com",
   "firstName": "John",
   "lastName": "Doe"
 }
-
+```
 ## Testing
 
 Use Postman to send HTTP requests.
