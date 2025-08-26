@@ -40,6 +40,8 @@ CREATE TABLE users (
     last_name VARCHAR(255) NOT NULL
 );
 
+```
+
 2. Update application.properties:
 
 spring.datasource.url=jdbc:mariadb://localhost:3306/USER_MANAGEMENT
