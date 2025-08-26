@@ -1,5 +1,3 @@
-# springboot-restful-webservices
- 
 # Spring Boot RESTful Web Services
 
 A simple Spring Boot application that exposes RESTful APIs to manage users. It connects to a **MariaDB** database and demonstrates basic CRUD operations.
